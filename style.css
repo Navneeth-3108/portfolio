@@ -1,3 +1,11 @@
 .project-card > a img {
     width: 500px;
 }
+.menu {
+    display: flex;
+    gap: 15px;
+    justify-content: end;
+}
+.menu > li {
+    list-style: none;
+}
