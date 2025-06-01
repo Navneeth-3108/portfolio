@@ -1,6 +1,6 @@
 # 💼 Navneeth's Portfolio
 
-Welcome to my personal portfolio website built using **Flask**, **HTML/CSS**, and custom assets. This site showcases my technical skills, projects, and offers an easy way to get in touch.
+Welcome to my personal portfolio website built using **Flask**,**MongoDB**, **HTML/CSS**, and custom assets. This site showcases my technical skills, projects, and offers an easy way to get in touch.
 
 ## 📁 Project Structure
 
