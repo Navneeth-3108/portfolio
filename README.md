@@ -6,7 +6,7 @@ Welcome to my personal portfolio website built using **Flask**,**MongoDB**, **HT
 
 ```
 portfolio-main/
-├── app.py                        # Flask application entry point
+├── app.py                        # Flask application entry point, MongoDB client interaction 
 ├── templates/
 │   └── index.html                # Main HTML template
 ├── static/
@@ -21,11 +21,13 @@ portfolio-main/
 - Icons for tech stack and social links
 - Sections: Home, Skills, Projects, Contact
 - Flask server setup for local deployment
+- MongoDB database for storing form submissions
 
 ## 🛠️ Tech Stack
 
 - **Frontend**: HTML5, CSS3
 - **Backend**: Python (Flask)
+- **Database**: MongoDB
 - **Assets**: SVGs for tech and social icons, PNG/JPG project visuals
 
 ## ▶️ Getting Started
@@ -41,10 +43,11 @@ Follow these steps to run the project locally:
 
 2. **Install dependencies**
 
-   Make sure you have Python installed, then install Flask:
+   Make sure you have Python installed, then install Flask and Pymongo:
 
    ```bash
    pip install flask
+   pip install pymongo
    ```
 
 3. **Run the application**
