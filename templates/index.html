@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navneeth</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Comic+Relief:wght@400;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tagesschrift&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+
+  <!--Navigation Section-->
+  <div class="menu">
+      <li class="menu-button">Home</li>
+      <li class="menu-button">About</li>
+      <li class="menu-button">Projects</li>
+      <li class="menu-button">Contact Me</li>
+  </div>
+
+  <!--Hero Section-->
+  <h1>About Me</h1>
+  <div class="about">
+    <img class="profile" src="../static/assets/project_images/me.jpg" alt="Navneeth M V"/>
+    <div>
+      <p>Hi,</br>
+        I'm Navneeth</br>
+        An Upcoming Full-Stack Developer & CSE Student at PSG College of Technology.</br></br>
+        I build websites with clean, flexible code that’s easy to understand and maintain. Passionate about creating solutions that are not only functional but also accessible for everyone.</br> </br>
+        Tech Stack</p>
+        <div>
+          <img class="icon" src="../static/assets/icons/html.svg" alt="HTML"/>
+          <img class="icon" src="../static/assets/icons/css.svg" alt="CSS"/>
+          <img class="icon" src="../static/assets/icons/javascript.svg" alt="Javascript"/>
+          <img class="icon" src="../static/assets/icons/python.svg" alt="Python"/>
+          <img class="icon" src="../static/assets/icons/c.svg" alt="C"/>
+          <img class="icon-img" src="../static/assets/icons/MongoDB.svg" alt="MongoDB"/>
+        </div>
+    </div>
+  </div>
+
+  <!--Projects Section-->
+  <h1>Projects</h1>
+  <div class="project-card">
+    <a target="_blank" href="https://navneeth-3108.github.io/sample/"><img src="../static/assets/project_images/youtube.png" alt="Youtube Project"/></a>
+    <p>Youtube Look alike</p>
+  </div>
+
+  <!--Contact Me-->
+  <form action="/submit" method="POST">
+    <div class="contact">
+      <h1>Contact Me</h1>
+      <p>Let’s Connect! Feel free to reach out.<br>I’d love to hear from you.</p>
+      <div class="form-group">
+        <input class="name" type="text" name="name" placeholder="Your Name" required>
+        <input class="email" type="email" name="email" placeholder="Your Email" required>
+      </div>
+      <textarea class="message" name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </div>
+  </form>
+  
+  <hr>
+  <!--Footer Section-->
+  <div class="footer">
+    <a target="_blank" href="https://github.com/Navneeth-3108" ><img src="../static/assets/icons/github.svg" alt="Github"/></a>
+    <a target="_blank" href="https://www.instagram.com/navneeth_3108?igsh=MWVxNG1vN2lpbXM3Mg=="><img src="../static/assets/icons/instagram.svg" alt="Instagram"/></a>
+    <a target="_blank" href="https://www.linkedin.com/in/navneeth-m-v-27445b35a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="../static/assets/icons/linkedin.svg" alt="Linkedin"/></a>
+  </div>
+  
+</body>
+</html>
