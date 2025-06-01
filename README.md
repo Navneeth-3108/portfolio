@@ -76,7 +76,7 @@ Feel free to reach out to me through the contact form on the site or via:
 
 ## 📝 License
 
-This project is open-source and available under the [MIT License](LICENSE).
+This project is open-source.
 
 ---
 
