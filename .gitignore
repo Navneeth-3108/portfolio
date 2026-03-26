@@ -1,0 +1,31 @@
+node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Build outputs
+dist/
+build/
+
+# Test artifacts
+coverage/
+
+# Runtime uploads/logs
+server/uploads/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS/editor artifacts
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python caches (in case of tooling scripts)
+__pycache__/
+*.pyc
